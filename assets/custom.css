@@ -1,0 +1,96 @@
+:root {
+    --app-bg: #0b1020;
+    --card-bg: rgba(255, 255, 255, 0.06);
+    --border: rgba(255, 255, 255, 0.08);
+    --text-main: #e8ecf3;
+    --text-soft: #aab6c8;
+    --accent: #7c9cff;
+    --accent-2: #4fd1c5;
+}
+
+.stApp {
+    background:
+        radial-gradient(circle at top left, rgba(124, 156, 255, 0.16), transparent 28%),
+        radial-gradient(circle at top right, rgba(79, 209, 197, 0.14), transparent 24%),
+        linear-gradient(180deg, #0b1020 0%, #121a2f 100%);
+    color: var(--text-main);
+}
+
+.block-container {
+    padding-top: 1.4rem;
+    padding-bottom: 2rem;
+    max-width: 1200px;
+}
+
+.hero-card,
+.metric-card,
+.upload-card,
+.source-card,
+.info-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+}
+
+.hero-card {
+    padding: 1.2rem 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.metric-card,
+.info-card {
+    padding: 0.9rem 1rem;
+}
+
+.upload-card {
+    padding: 1rem;
+}
+
+.source-card {
+    padding: 0.9rem 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.app-title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: 0.35rem;
+}
+
+.app-subtitle {
+    color: var(--text-soft);
+    font-size: 0.98rem;
+}
+
+.small-label {
+    font-size: 0.82rem;
+    color: var(--text-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+}
+
+.big-metric {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-top: 0.2rem;
+}
+
+.source-meta {
+    color: var(--text-soft);
+    font-size: 0.85rem;
+    margin-bottom: 0.4rem;
+}
+
+.status-pill {
+    display: inline-block;
+    padding: 0.35rem 0.65rem;
+    border-radius: 999px;
+    background: rgba(124, 156, 255, 0.14);
+    border: 1px solid rgba(124, 156, 255, 0.2);
+    color: #dfe7ff;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}

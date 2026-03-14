@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+chroma_db/
+data/uploaded_docs/
+.streamlit/secrets.toml
+.DS_Store
+.ipynb_checkpoints
+policy_sop_assistant_notebook.ipynb
